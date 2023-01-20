@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color:antiquewhite ;
+}
+header {
+    background-color: black;
+    color: whitesmoke;
+    border-bottom: 4px solid white;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+h2 {
+    text-align: center;
+    border-radius: 40px 40px 0 0;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.html h2{
+    background-color: rgb(255, 101, 6);
+}
+.css h2{
+    background-color: rgb(2, 107, 255);
+}
+.git h2{
+    background-color: rgb(232, 3, 3);
+}
+.javascript h2{
+    background-color: rgb(255, 206, 8);
+}
+p {
+    font-size: 20px;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;    
+}
+.box {
+    background-color: white;
+    width: 400px;
+    min-height: 200px;
+    border-radius: 40px;
+    margin: 10px;
+    box-shadow: 10px 5px 5px grey;
+}
+.box ul {
+    margin: 0 50px;
+    margin-bottom: 40px;
+}
